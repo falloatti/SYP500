@@ -13,25 +13,6 @@
 
 Análisis de acciones del S&P 500 desde el año 2000,
 
-#### Crisis
-![texto alternativo](https://github.com/falloatti/SYP500/blob/main/Crisis.png)
-
-##### Burbuja de las punto com (2000-2002): 
-
-La burbuja de las punto com fue una burbuja especulativa en el mercado de valores que estuvo marcada por la rápida expansión y caída de las empresas relacionadas con Internet y tecnología en la década de 1990 y principios de la década de 2000. El S&P 500 alcanzó su punto máximo en marzo de 2000 y luego cayó aproximadamente un 50% hasta octubre de 2002.
-
-##### Crisis financiera global (2007-2009): 
-
-La crisis financiera global, también conocida como la Gran Recesión, fue causada por una combinación de factores, incluida la burbuja inmobiliaria en los Estados Unidos, la excesiva especulación en los mercados financieros y una mala regulación financiera. La crisis condujo a una recesión global y a la caída de numerosas instituciones financieras. El S&P 500 alcanzó su punto máximo en octubre de 2007 y luego cayó aproximadamente un 57% hasta marzo de 2009.
-
-##### Caída del mercado en marzo de 2020 (COVID-19): 
-
-La pandemia de COVID-19 provocó una caída rápida y significativa en los mercados financieros globales en marzo de 2020 debido a la incertidumbre económica y la interrupción de las actividades comerciales. El S&P 500 cayó aproximadamente un 34% desde su punto máximo en febrero de 2020 hasta el mínimo en marzo de 2020. Sin embargo, el mercado se recuperó rápidamente en los meses siguientes, impulsado en gran parte por las intervenciones de los bancos centrales y los paquetes de estímulo gubernamentales.
-
-##### Guerra Rusia - Ucrania: 
-
-La guerra ruso-ucraniana es un conflicto bélico actualmente en curso entre la Federación de Rusia y Ucrania. Se acrecentó tras el tenso período de la crisis ruso-ucraniana de 2021-2022 y estalla el 24 de febrero de 2022 con la invasión rusa de Ucrania.
-
 #### Desarrollo
 
 En el archivo S&P500.ipynb se encuentra el código por el cual se realiza la extracción de la base de cotizaciones de las empresas del S&P 500 desde al año 2000 a marzo de 2023. 
@@ -54,6 +35,43 @@ La base cuenta con informacion como variables de: Date, Open, High, Low, Close, 
 Date es la fecha de cotizacion, Open es el valor de apertura, High es el precio mas alto de la fecha, Low el mas bajo, Close el valor de cierre, Adj Close el precio de cierre ajustado, Volume es el volumen de acciones operadas y Symbol el simbolo de la empresa.     
 
 Por otro lado, tomando se incorpora información adicional de estas empresas para poder incorporar el sector al que pertenece, el subsector, año de fundación, entre otros. 
+
+Del mismo modo, se realiza la extracción de cotizaciones en el mismo periodo para ‘^GSPC’ que representa el desempeño ponderado de esas empresas.  
+
+Una vez extraídos utilizamos esta última información para realizar un gráfico de velas con la evolución de las cotizaciones y poder entender algunos eventos importantes, por ejemplo las principales caídas.   
+
+#### Crisis
+![texto alternativo](https://github.com/falloatti/SYP500/blob/main/Crisis.png)
+
+##### Burbuja de las punto com (2000-2002): 
+
+La burbuja de las punto com fue una burbuja especulativa en el mercado de valores que estuvo marcada por la rápida expansión y caída de las empresas relacionadas con Internet y tecnología en la década de 1990 y principios de la década de 2000. El S&P 500 alcanzó su punto máximo en marzo de 2000 y luego cayó aproximadamente un 50% hasta octubre de 2002.
+
+##### Crisis financiera global (2007-2009): 
+
+La crisis financiera global, también conocida como la Gran Recesión, fue causada por una combinación de factores, incluida la burbuja inmobiliaria en los Estados Unidos, la excesiva especulación en los mercados financieros y una mala regulación financiera. La crisis condujo a una recesión global y a la caída de numerosas instituciones financieras. El S&P 500 alcanzó su punto máximo en octubre de 2007 y luego cayó aproximadamente un 57% hasta marzo de 2009.
+
+##### Caída del mercado en marzo de 2020 (COVID-19): 
+
+La pandemia de COVID-19 provocó una caída rápida y significativa en los mercados financieros globales en marzo de 2020 debido a la incertidumbre económica y la interrupción de las actividades comerciales. El S&P 500 cayó aproximadamente un 34% desde su punto máximo en febrero de 2020 hasta el mínimo en marzo de 2020. Sin embargo, el mercado se recuperó rápidamente en los meses siguientes, impulsado en gran parte por las intervenciones de los bancos centrales y los paquetes de estímulo gubernamentales.
+
+##### Guerra Rusia - Ucrania: 
+
+La guerra ruso-ucraniana es un conflicto bélico actualmente en curso entre la Federación de Rusia y Ucrania. Se acrecentó tras el tenso período de la crisis ruso-ucraniana de 2021-2022 y estalla el 24 de febrero de 2022 con la invasión rusa de Ucrania.
+
+Los datos son almacenados en formato .parquet para ser utilizados en Power Bi a los efectos de ser utilizados en la creación de las visualizaciones del mercado en general y KPI según parámetros definidos.   
+
+#### KPI  
+
+##### Rendimiento acumulado: 
+
+Calcula el rendimiento acumulado de las acciones a lo largo del tiempo. Puedes comparar el rendimiento acumulado de diferentes acciones para identificar cuál ha tenido un mejor desempeño en un período específico. Se define como parámetros de cumplimiento de objetivos cuando el valor es superior al 10% (color verde), de atención cuando es entre 5 y 10% (amarillo) y como alarma cuando es menor al 5% (rojo).    
+
+
+##### Beta: 
+
+Compara la volatilidad de una acción con la volatilidad del mercado en general. Un beta mayor a 1 indica que la acción es más volátil que el mercado, mientras que un beta menor a 1 indica que la acción es menos volátil. El beta se utiliza comúnmente para evaluar el riesgo de una acción en relación con el mercado. Se define como parámetros de cumplimiento de objetivos cuando el valor es menor a 1 (color verde), de atención cuando es entre 1 y 1,2  (amarillo) y como alarma cuando es mayor a 1,2 (rojo).  
+
 
 
 
