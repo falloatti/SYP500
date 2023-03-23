@@ -10,9 +10,6 @@ fernando.alloatti@gmail.com
   <img src="https://github.com/falloatti/SYP500/blob/main/bb2.jpeg" alt="texto alternativo">
 </p>
 
-#### Temática
-
-Análisis de acciones del S&P 500 desde el año 2000,
 
 #### Desarrollo
 
@@ -62,6 +59,8 @@ La guerra ruso-ucraniana es un conflicto bélico actualmente en curso entre la F
 
 Los datos son almacenados en formato .parquet para ser utilizados en Power Bi a los efectos de ser utilizados en la creación de las visualizaciones del mercado en general y KPI según parámetros definidos.   
 
+------------
+
 #### KPI  
 
 ##### Rendimiento acumulado: 
@@ -83,6 +82,10 @@ Valores negativos: Un cambio porcentual negativo en el volumen indica que el vol
 Valores cercanos a cero: Si el cambio porcentual en el volumen es cercano a cero, significa que el volumen de operaciones se ha mantenido relativamente estable en comparación con el período anterior. Esto podría indicar que no ha habido cambios significativos en el interés o la actividad en torno a la acción.  
 
 Por un criterio conservador se considera como objetivos variaciones en el rango -0,1 a 0,20 como objetivo.  
+
+------------
+
+
 
 
 
