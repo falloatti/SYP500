@@ -73,6 +73,19 @@ Calcula el rendimiento acumulado de las acciones a lo largo del tiempo. Puedes c
 
 Compara la volatilidad de una acción con la volatilidad del mercado en general. Un beta mayor a 1 indica que la acción es más volátil que el mercado, mientras que un beta menor a 1 indica que la acción es menos volátil. El beta se utiliza comúnmente para evaluar el riesgo de una acción en relación con el mercado. Se define como parámetros de cumplimiento de objetivos cuando el valor es menor a 1 (color verde), de atención cuando es entre 1 y 1,2  (amarillo) y como alarma cuando es mayor a 1,2 (rojo).  
 
+##### Cambio porcentual en el volumen: 
+
+Es una medida que compara el volumen de operaciones de una acción en un período de tiempo con el volumen de operaciones en otro período de tiempo. Esencialmente, muestra cuánto ha cambiado el volumen de operaciones en términos porcentuales.  
+Valores positivos: Un cambio porcentual positivo en el volumen indica que el volumen de operaciones ha aumentado en comparación con el período anterior. Esto podría ser un signo de mayor interés y actividad en la acción, lo que podría estar relacionado con un evento importante, noticias, o una tendencia emergente. Un aumento significativo en el volumen podría indicar una fuerte convicción en el movimiento del precio de la acción (ya sea al alza o a la baja).  
+
+Valores negativos: Un cambio porcentual negativo en el volumen indica que el volumen de operaciones ha disminuido en comparación con el período anterior. Esto podría significar que hay menos interés y actividad en la acción, lo que podría ser el resultado de la falta de eventos importantes, noticias, o una tendencia decreciente. Un descenso significativo en el volumen podría indicar debilidad en el movimiento del precio de la acción.  
+
+Valores cercanos a cero: Si el cambio porcentual en el volumen es cercano a cero, significa que el volumen de operaciones se ha mantenido relativamente estable en comparación con el período anterior. Esto podría indicar que no ha habido cambios significativos en el interés o la actividad en torno a la acción.  
+
+Por un criterio conservador se considera como objetivos variaciones en el rango -0,1 a 0,20 como objetivo.  
+
+
+
 
 
 
