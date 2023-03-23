@@ -1,7 +1,8 @@
 # HENRY LABS
 #### PROYECTO INDIVIDUAL II -- Mercado bursátil
 
-##### Fernando Alloatti
+##### Fernando Alloatti  
+fernando.alloatti@gmail.com  
 
 ------------
 
