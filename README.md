@@ -4,8 +4,10 @@
 ##### Fernando Alloatti
 
 ------------
-<div style="text-align:center"><img src ="(https://github.com/falloatti/SYP500/blob/main/bb2.jpeg)" /></div>
 
+<p align="center">
+  <img src="https://github.com/falloatti/SYP500/blob/main/bb2.jpeg" alt="texto alternativo">
+</p>
 
 ![texto alternativo](https://github.com/falloatti/SYP500/blob/main/bb2.jpeg)
 
