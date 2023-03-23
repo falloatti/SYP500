@@ -85,6 +85,7 @@ Por un criterio conservador se considera como objetivos variaciones en el rango 
 
 ------------
 
+k
 
 
 
