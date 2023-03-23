@@ -50,12 +50,11 @@ Real Estate, 30
 Utilities, 30  
 
 La base cuenta con informacion como variables de: Date, Open, High, Low, Close, Adj Close, Volume y Symbol, donde:  
-Date es la fecha de cotizacion, Open es el valor de apertura, High es el precio mas alto de la fecha, Low el mas bajo, Close el valor de cierre, Adj Close el precio de cierre ajustado, Volume es el volumen de acciones operadas y Symbol el simbolo de la empresa.  
 
-La base cuenta con informacion como variables de: Date, Open, High, Low, Close, Adj Close, Volume y Symbol, donde:  
-Date es la fecha de cotizacion, Open es el valor de apertura, High es el precio mas alto de la fecha, Low el mas bajo, Close el valor de cierre, Adj Close el precio de cierre ajustado, Volume es el volumen de acciones operadas y Symbol el simbolo de la empresa.   
+Date es la fecha de cotizacion, Open es el valor de apertura, High es el precio mas alto de la fecha, Low el mas bajo, Close el valor de cierre, Adj Close el precio de cierre ajustado, Volume es el volumen de acciones operadas y Symbol el simbolo de la empresa.     
 
-Por otro lado, tomando se incorpora información adicional de estas empresas para poder incorporar el sector al que pertenece, el subsector, año de fundación, entre otros.  
+Por otro lado, tomando se incorpora información adicional de estas empresas para poder incorporar el sector al que pertenece, el subsector, año de fundación, entre otros. 
+
 
 
 
