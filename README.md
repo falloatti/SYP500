@@ -5,7 +5,7 @@
 
 ------------
 
-               ![texto alternativo](https://github.com/falloatti/SYP500/blob/main/inversiones.jpeg)
+![texto alternativo](https://github.com/falloatti/SYP500/blob/main/inversiones.jpeg)
 
 ##### Temática
 
