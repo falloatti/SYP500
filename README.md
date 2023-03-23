@@ -1,5 +1,5 @@
 # HENRY LABS
-#### PROYECTO INDIVIDUAL I -- Mercado bursátil
+#### PROYECTO INDIVIDUAL II -- Mercado bursátil
 
 ##### Fernando Alloatti
 
