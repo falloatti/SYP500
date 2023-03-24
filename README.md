@@ -91,6 +91,8 @@ Se incorpora información del mercado inmobilidario de USA desde 1963, donde se 
 
 Acceso a la fuente  [Links] (https://data.nasdaq.com/data/FRED/MSPUS-median-sales-price-of-houses-sold-for-the-united-states) 
 
+------------
+
 #### ACCESOS
 
 ##### Archivos salida del EDA se aloja en: 
@@ -101,6 +103,7 @@ Acceso a la fuente  [Links] (https://data.nasdaq.com/data/FRED/MSPUS-median-sale
 
 [Links](https://drive.google.com/file/d/1ijKOb89chTkv_IBPAhXu9pv-s5yOn24-/view?usp=share_link)  
 
+------------
 
 #### HERRAMIENTAS: 
 
