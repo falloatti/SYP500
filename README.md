@@ -91,14 +91,20 @@ Se incorpora información del mercado inmobilidario de USA desde 1963, donde se 
 
 Acceso a la fuente  [Links] (https://data.nasdaq.com/data/FRED/MSPUS-median-sales-price-of-houses-sold-for-the-united-states) 
 
+#### ACCESOS
+
+##### Archivos salida del EDA se aloja en: 
+
+[Links](https://drive.google.com/file/d/1JRkeQQ82o_4i7NHyCca5rY-OIJqICxHq/view?usp=share_link)
+
+##### Archivo Power Bi:
+
+[Links](https://drive.google.com/file/d/1ijKOb89chTkv_IBPAhXu9pv-s5yOn24-/view?usp=share_link)  
 
 
+#### HERRAMIENTAS: 
 
-
-
-
-
-
+Python, Pandas, Google Colab, Power Bi.
 
 
 
