@@ -11,7 +11,7 @@ fernando.alloatti@gmail.com
 </p>
 
 
-#### Desarrollo
+#### DESARROLLO  
 
 En el archivo S&P500.ipynb se encuentra el código por el cual se realiza la extracción de la base de cotizaciones de las empresas del S&P 500 desde al año 2000 a marzo de 2023. 
 En total son 501 empresas, divididas en los siguientes sectores:  
@@ -38,7 +38,7 @@ Del mismo modo, se realiza la extracción de cotizaciones en el mismo periodo pa
 
 Una vez extraídos utilizamos esta última información para realizar un gráfico de velas con la evolución de las cotizaciones y poder entender algunos eventos importantes, por ejemplo las principales caídas.   
 
-#### Crisis
+#### CRISIS
 ![texto alternativo](https://github.com/falloatti/SYP500/blob/main/Crisis.png)
 
 ##### Burbuja de las punto com (2000-2002): 
@@ -85,7 +85,12 @@ Por un criterio conservador se considera como objetivos variaciones en el rango 
 
 ------------
 
-k
+#### OTRAS FUENTES 
+
+Se incorpora información del mercado inmobilidario de USA desde 1963, donde se observa que se tuvo un desempeño mejor al mercado bursatil.  
+
+Acceso a la fuente  [Links] (https://data.nasdaq.com/data/FRED/MSPUS-median-sales-price-of-houses-sold-for-the-united-states) 
+
 
 
 
