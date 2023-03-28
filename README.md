@@ -81,14 +81,14 @@ Valores negativos: Un cambio porcentual negativo en el volumen indica que el vol
 
 Valores cercanos a cero: Si el cambio porcentual en el volumen es cercano a cero, significa que el volumen de operaciones se ha mantenido relativamente estable en comparación con el período anterior. Esto podría indicar que no ha habido cambios significativos en el interés o la actividad en torno a la acción.  
 
-Por un criterio conservador se considera como objetivos variaciones en el rango -0,1 a 0,20 como objetivo.  
+Por un criterio conservador se considera como objetivos variaciones en el rango -0,1 a 0,20 como objetivo.    
 
 ------------
-
+  
 #### DIA DE LA SEMANA PARA INVERTIR:  
 
 En el proceso de EDA se agrega al dataset el día de la semana de cada operación. A continuación de calcula la diferencia entre el valor de cierre (Close) y el de apertura (Open), luego se agrega una nueva columna con 1 para los casos donde ese valor es positivo, 0 cuando es igual a 0 y -1 cuando es negativo. Para calcular el día de la semana que conviene invertir se realiza un calculo simple donde se filtra por empresa o sector y se obtiene el valor. 
-Disclaimer, el valor es un calculo simple, que no contempla el costo de la intermediación según se pacte con cada bróker. 
+Disclaimer, el valor es un calculo simple, que no contempla el costo de la intermediación según se pacte con cada bróker.   
 
 ------------
 
