@@ -104,7 +104,7 @@ Acceso a la fuente  [Links] (https://data.nasdaq.com/data/FRED/MSPUS-median-sale
 
 ##### Archivos salida del EDA se aloja en: 
 
-[Links](https://drive.google.com/file/d/1JRkeQQ82o_4i7NHyCca5rY-OIJqICxHq/view?usp=share_link)
+[Links](https://colab.research.google.com/drive/1BHVMIC2ruibcfBaxU4ND640PRuQ-ZgwL?usp=share_link)
 
 ##### Archivo Power Bi:
 
