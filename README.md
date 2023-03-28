@@ -87,7 +87,7 @@ Por un criterio conservador se considera como objetivos variaciones en el rango 
   
 #### DIA DE LA SEMANA PARA INVERTIR:  
 
-En el proceso de EDA se agrega al dataset el día de la semana de cada operación. A continuación de calcula la diferencia entre el valor de cierre (Close) y el de apertura (Open), luego se agrega una nueva columna con 1 para los casos donde ese valor es positivo, 0 cuando es igual a 0 y -1 cuando es negativo. Para calcular el día de la semana que conviene invertir se realiza un calculo simple donde se filtra por empresa o sector y se obtiene el valor. 
+En el proceso de EDA se agrega al dataset el día de la semana de cada operación. A continuación de calcula la diferencia entre el valor de cierre (Close) y el de apertura (Open), luego se agrega una nueva columna con 1 para los casos donde ese valor es positivo, 0 cuando es igual a 0 y -1 cuando es negativo. Para calcular el día de la semana que conviene invertir se realiza un calculo simple donde se filtra por empresa o sector y se obtiene el valor.   
 Disclaimer, el valor es un calculo simple, que no contempla el costo de la intermediación según se pacte con cada bróker.   
 
 ------------
